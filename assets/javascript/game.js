@@ -1,6 +1,15 @@
-/*var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
-        'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
-        't', 'u', 'v', 'w', 'x', 'y', 'z']*/
-        var things = ['Rock', 'Paper', 'Scissor'];
-var thing = things[Math.floor(Math.random()*things.length)];
-alert('The computer chose:' + thing);
+//This is my wordbank of guesses
+var wordbank = ['Khaleesi', 'Tyrion', 'Ygritte', 'Gendry', 'Gilly', 'Missandei', 'Jojen', 'Meera', 'Ilyn', 'Gregor', 'Cersei', 'Sansa', 'Arya'];
+{console.log("wordbank");}
+
+//This command randomly generates a word 
+var choice = wordbank[Math.floor(Math.random()*wordbank.length)];
+{console.log("choice");}
+
+//This command keeps track of how many words have not been guessed
+var available = wordbank.length;
+{console.log("available");}
+
+//This command alerts the user of the random word chosen
+alert('The computer chose:' + choice);
+
