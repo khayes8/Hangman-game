@@ -1,3 +1,4 @@
+
 //This is my wordbank of guesses
 var wordbank = ['Khaleesi', 'Tyrion', 'Ygritte', 'Gendry', 'Gilly', 'Missandei', 'Jojen', 'Meera', 'Ilyn', 'Gregor', 'Cersei', 'Sansa', 'Arya'];
 {console.log("wordbank");}
@@ -12,4 +13,16 @@ var available = wordbank.length;
 
 //This command alerts the user of the random word chosen
 alert('The computer chose:' + choice);
+
+
+function init( )
+{
+  if ( available <1 )
+
+    alert("There are no words left to guess")
+    
+
+
+}
+
 
